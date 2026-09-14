@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
+  width="1200" height="630">
+  <defs><linearGradient id="og" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFE3EC"/><stop offset="45%" stop-color="#FFF3C4"/>
+    <stop offset="100%" stop-color="#CDE8FF"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#og)"/>
+  <path transform="translate(180,140) scale(1.4)" fill="#FFFFFF" d="M0,-16 C2,-5 5,-2 16,0 C5,2 2,5 0,16 C-2,5 -5,2 -16,0 C-5,-2 -2,-5 0,-16 Z"/>
+  <path transform="translate(1020,200) scale(1.1)" fill="#FFFFFF" d="M0,-16 C2,-5 5,-2 16,0 C5,2 2,5 0,16 C-2,5 -5,2 -16,0 C-5,-2 -2,-5 0,-16 Z"/>
+  <path transform="translate(950,500) scale(0.8)" fill="#FFFFFF" d="M0,-16 C2,-5 5,-2 16,0 C5,2 2,5 0,16 C-2,5 -5,2 -16,0 C-5,-2 -2,-5 0,-16 Z"/>
+  <g fill="#FFFFFF" opacity="0.75" transform="translate(300,480) scale(1.1)"><ellipse cx="0" cy="0" rx="52" ry="30"/><ellipse cx="-40" cy="8" rx="34" ry="22"/><ellipse cx="42" cy="10" rx="30" ry="20"/></g>
+  <g fill="#FFFFFF" opacity="0.6" transform="translate(900,460) scale(0.9)"><ellipse cx="0" cy="0" rx="52" ry="30"/><ellipse cx="-40" cy="8" rx="34" ry="22"/><ellipse cx="42" cy="10" rx="30" ry="20"/></g>
+  <g transform="translate(140,560) scale(1.4)"><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#FFC8DD" transform="rotate(0)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#FFC8DD" transform="rotate(72)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#FFC8DD" transform="rotate(144)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#FFC8DD" transform="rotate(216)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#FFC8DD" transform="rotate(288)"/><circle r="8" fill="#FFF3C4"/></g>
+  <g transform="translate(1080,560) scale(1.2)"><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#C7F0DB" transform="rotate(0)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#C7F0DB" transform="rotate(72)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#C7F0DB" transform="rotate(144)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#C7F0DB" transform="rotate(216)"/><ellipse cx="0" cy="-16" rx="9" ry="15" fill="#C7F0DB" transform="rotate(288)"/><circle r="8" fill="#FFFFFF"/></g>
+  <text x="600" y="300" text-anchor="middle" font-family="Verdana, sans-serif"
+        font-size="86" font-weight="bold" fill="#6B5B71">ritikasartbook</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Verdana, sans-serif"
+        font-size="38" fill="#8A7A90">whimsical illustration &amp; surface pattern</text>
+</svg>

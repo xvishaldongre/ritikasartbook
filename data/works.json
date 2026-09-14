@@ -1,0 +1,297 @@
+{
+  "categories": [
+    {
+      "slug": "book-cover",
+      "label": "Book Covers",
+      "nav": "Book Cover",
+      "blurb": "Cover art that makes a small reader pick the book up \u2014 warm characters, one clear feeling, and room for the title to breathe.",
+      "icon": "\ud83d\udcd6"
+    },
+    {
+      "slug": "general-illustration",
+      "label": "General Illustration",
+      "nav": "General Illustration",
+      "blurb": "Story moments, editorial pieces and dreamy scenes \u2014 the everyday whimsy of clouds with opinions and trees that gossip.",
+      "icon": "\u2728"
+    },
+    {
+      "slug": "character-design",
+      "label": "Character Design",
+      "nav": "Character Design",
+      "blurb": "Turnarounds, expressions and tiny personalities. Every character gets a favourite snack and a secret fear.",
+      "icon": "\ud83d\udc30"
+    },
+    {
+      "slug": "surface-pattern",
+      "label": "Surface Pattern",
+      "nav": "Surface Pattern",
+      "blurb": "Seamless repeat patterns for fabric, wallpaper, stationery and packaging \u2014 built to tile beautifully at any size.",
+      "icon": "\ud83c\udf3b"
+    }
+  ],
+  "works": [
+    {
+      "id": "book-cover-1",
+      "category": "book-cover",
+      "featured": true,
+      "title": "The Moon's Lost Slipper",
+      "blurb": "A bedtime cover about a moon who misplaces one shoe and borrows the tide to find it.",
+      "alt": "Pastel lavender book cover illustration of a glowing moon over soft rolling hills with sparkles.",
+      "tags": ["Picture book", "Ages 3\u20136", "Gouache + digital"],
+      "detail": "The brief called for \u2018cosy, but with a tiny bit of adventure\u2019. I kept the palette to moonlight lilac and cream so the title type can sit in the open sky, and gave the hills a gentle wobble so nothing feels ruled by a straight edge."
+    },
+    {
+      "id": "book-cover-2",
+      "category": "book-cover",
+      "featured": true,
+      "title": "Pip and the Paper Whale",
+      "blurb": "A small girl folds a whale from a bus ticket and sails it across the kitchen floor.",
+      "alt": "Pastel peach and cream book cover illustration of a small child riding a paper whale.",
+      "tags": ["Picture book", "Ages 4\u20138", "Watercolour"],
+      "detail": "A cover that had to read at thumbnail size. One big shape (the whale), one warm face (Pip), and a lot of soft air around both. The peach wash was painted wet-on-wet so the paper grain stays visible in print."
+    },
+    {
+      "id": "book-cover-3",
+      "category": "book-cover",
+      "featured": false,
+      "title": "The Very Shy Thundercloud",
+      "blurb": "A thundercloud who is too polite to rain, until a wilting sunflower asks nicely.",
+      "alt": "Pastel butter yellow book cover of a fluffy cloud character above flowers.",
+      "tags": ["Picture book", "Ages 3\u20137", "Gouache"],
+      "detail": "Character-first cover. The cloud needed eyebrows expressive enough to carry the whole joke, so I built a turnaround of forty expression sketches before painting the final."
+    },
+    {
+      "id": "book-cover-4",
+      "category": "book-cover",
+      "featured": false,
+      "title": "Map of Small Brave Things",
+      "blurb": "A middle-grade cover about a folded map that only shows places you are afraid of.",
+      "alt": "Pastel lavender middle grade cover with a moon, hills and wandering path.",
+      "tags": ["Middle grade", "Ages 9\u201312", "Digital"],
+      "detail": "Middle-grade covers carry more mystery, so I let the path lead off the edge of the page. The spot gloss on the map fold was flagged in the layered file for the printer."
+    },
+    {
+      "id": "book-cover-5",
+      "category": "book-cover",
+      "featured": false,
+      "title": "Noodle the Library Cat",
+      "blurb": "A cat who shelves books by how they smell, and a librarian who lets him.",
+      "alt": "Pastel mint book cover illustration of a round cat among books and plants.",
+      "tags": ["Picture book", "Ages 4\u20138", "Gouache + digital"],
+      "detail": "Warm, funny and domestic. I built the shelf pattern first, then hid three easter eggs in the spines for the author's own cats."
+    },
+    {
+      "id": "book-cover-6",
+      "category": "book-cover",
+      "featured": false,
+      "title": "When the Garden Woke Up",
+      "blurb": "A springtime cover about a garden stretching after a long winter nap.",
+      "alt": "Pastel sky blue book cover of flowers and hills waking in spring.",
+      "tags": ["Picture book", "Ages 2\u20135", "Watercolour"],
+      "detail": "Designed as a series look: same horizon height, same hill rhythm, rotating palette per season so the four books sit nicely as a set."
+    },
+
+    {
+      "id": "general-illustration-1",
+      "category": "general-illustration",
+      "featured": true,
+      "title": "Clouds With Opinions",
+      "blurb": "An editorial piece about weather that argues back.",
+      "alt": "Pastel blue illustration of layered hills, flowers and soft clouds.",
+      "tags": ["Editorial", "Digital", "2025"],
+      "detail": "Commissioned for a children's magazine spread on climate feelings. I gave each cloud a different silhouette so young readers can tell them apart at a glance."
+    },
+    {
+      "id": "general-illustration-2",
+      "category": "general-illustration",
+      "featured": true,
+      "title": "The Long Way Home",
+      "blurb": "A quiet scene of a walk that takes all afternoon on purpose.",
+      "alt": "Pastel illustration of a winding landscape with soft hills and floating sparkles.",
+      "tags": ["Story scene", "Watercolour", "2025"],
+      "detail": "Painted as a full-bleed spread. The composition uses three overlapping hill bands to build depth without a hard horizon line, which keeps the mood floaty."
+    },
+    {
+      "id": "general-illustration-3",
+      "category": "general-illustration",
+      "featured": false,
+      "title": "Tea for the Tin Robot",
+      "blurb": "A robot learns that a small cup is a big kindness.",
+      "alt": "Pastel scene with a friendly round character among flowers and hills.",
+      "tags": ["Editorial", "Character + scene", "2024"],
+      "detail": "Part of a series on kindness for a school reader. Simple shapes, one strong light source, and a lot of emphasis on the hands."
+    },
+    {
+      "id": "general-illustration-4",
+      "category": "general-illustration",
+      "featured": false,
+      "title": "Starlight Delivery",
+      "blurb": "Someone has to carry the stars down before morning.",
+      "alt": "Pastel night illustration with a large moon and sparkles over hills.",
+      "tags": ["Story scene", "Digital", "2024"],
+      "detail": "Night palettes for children are a balancing act \u2014 dark enough to feel like bedtime, never so dark the picture turns heavy. I kept the shadows tinted violet rather than grey."
+    },
+    {
+      "id": "general-illustration-5",
+      "category": "general-illustration",
+      "featured": false,
+      "title": "The Picnic That Grew Legs",
+      "blurb": "A blanket, a basket, and one very determined ant.",
+      "alt": "Pastel daytime illustration with flowers, a blanket of colour and rolling hills.",
+      "tags": ["Picture book scene", "Gouache", "2024"],
+      "detail": "A crowd scene kept readable by grouping characters into three clumps with clear gaps, and reserving the brightest colour for the runaway basket."
+    },
+    {
+      "id": "general-illustration-6",
+      "category": "general-illustration",
+      "featured": false,
+      "title": "Rainy Day Window",
+      "blurb": "Looking out at weather is its own kind of cosy.",
+      "alt": "Pastel illustration of a soft rainy landscape seen through a round window shape.",
+      "tags": ["Editorial", "Watercolour", "2023"],
+      "detail": "Painted with the raindrops masked out first, so each one keeps a sharp wet edge against the soft blurred background."
+    },
+
+    {
+      "id": "character-design-1",
+      "category": "character-design",
+      "featured": true,
+      "title": "Momo the Marshmallow Bear",
+      "blurb": "Round, brave, and slightly sticky.",
+      "alt": "Pastel peach character illustration of a soft round bear-like creature.",
+      "tags": ["Character sheet", "Expressions", "Turntable"],
+      "detail": "Delivered as a full sheet: front, three-quarter and side view, scale reference next to a household object, and a twelve-expression chart. Momo's silhouette is a single soft circle so he animates and merchandises easily."
+    },
+    {
+      "id": "character-design-2",
+      "category": "character-design",
+      "featured": true,
+      "title": "Wren, Keeper of Keys",
+      "blurb": "A quiet kid with too many pockets and a lantern that never goes out.",
+      "alt": "Pastel character illustration of a small cloaked figure with a glowing lantern.",
+      "tags": ["Character sheet", "Costume design", "Line art"],
+      "detail": "Costume built from a mood board of thrifted coats. Every pocket holds a real prop listed in the bible, which later gave the writer six story hooks for free."
+    },
+    {
+      "id": "character-design-3",
+      "category": "character-design",
+      "featured": false,
+      "title": "Bramble the Garden Gnome",
+      "blurb": "Grumpy about slugs, secretly the softest in the garden.",
+      "alt": "Pastel character illustration of a small round gnome figure among flowers.",
+      "tags": ["Character sheet", "Prop design", "Gouache"],
+      "detail": "Built a prop sheet of his tools first \u2014 the character arrived once the trowel looked well used."
+    },
+    {
+      "id": "character-design-4",
+      "category": "character-design",
+      "featured": false,
+      "title": "Paper Dragon, Small Version",
+      "blurb": "Origami dragon who is certain she is terrifying.",
+      "alt": "Pastel character illustration of a folded paper dragon creature.",
+      "tags": ["Character", "Expressions", "Digital"],
+      "detail": "The challenge was keeping the geometry believable while still letting the face perform. I kept fold lines as flat pastel planes and animated only the eyes and jaw."
+    },
+    {
+      "id": "character-design-5",
+      "category": "character-design",
+      "featured": false,
+      "title": "The Tidy Monster",
+      "blurb": "Arranges the forest floor into neat little piles, which the squirrels find deeply annoying.",
+      "alt": "Pastel character illustration of a fluffy friendly monster shape.",
+      "tags": ["Character", "Story bible", "Gouache"],
+      "detail": "A rare villain who is not a villain \u2014 just particular. The colour story uses warm peach for him and cool greens for the disrupted forest, so the conflict reads without dialogue."
+    },
+    {
+      "id": "character-design-6",
+      "category": "character-design",
+      "featured": false,
+      "title": "Sun and Moon, Siblings",
+      "blurb": "Two celestial siblings who keep swapping shifts.",
+      "alt": "Pastel character illustration of two glowing celestial figures side by side.",
+      "tags": ["Character pair", "Turnaround", "Digital"],
+      "detail": "Designed as mirror silhouettes so they read as a matched pair on a shelf or a spread, with reversed palettes to tell them apart instantly."
+    },
+
+    {
+      "id": "surface-pattern-1",
+      "category": "surface-pattern",
+      "featured": true,
+      "title": "Meadow Repeat",
+      "blurb": "Daisies, dots and little sparks \u2014 a spring repeat for fabric and stationery.",
+      "alt": "Seamless pastel mint surface pattern of flowers, dots and sparkles.",
+      "tags": ["Seamless repeat", "Fabric", "Stationery"],
+      "detail": "Built at 60 cm repeat, delivered as layered TIFF and flattened JPEG. Tested for visible seams in half-drop, straight and brick layouts."
+    },
+    {
+      "id": "surface-pattern-2",
+      "category": "surface-pattern",
+      "featured": true,
+      "title": "Confetti Picnic",
+      "blurb": "A playful toss pattern with tiny treats scattered at every angle.",
+      "alt": "Seamless pastel pattern of scattered shapes and dots on a soft background.",
+      "tags": ["Seamless repeat", "Packaging", "Kids apparel"],
+      "detail": "A tossed layout with three scales of motif, which lets the same artwork work as pyjama print and as a gift-wrap border."
+    },
+    {
+      "id": "surface-pattern-3",
+      "category": "surface-pattern",
+      "featured": false,
+      "title": "Moon Garden",
+      "blurb": "Night-blooming flowers in muted lilac for grown-up nurseries.",
+      "alt": "Seamless pastel pattern of soft flowers and shapes on a muted background.",
+      "tags": ["Seamless repeat", "Wallpaper", "Nursery"],
+      "detail": "A more grown-up palette for the nursery market: the same whimsy, dialled to dusk so it works on walls for years rather than months."
+    },
+    {
+      "id": "surface-pattern-4",
+      "category": "surface-pattern",
+      "featured": false,
+      "title": "Tiny Weather",
+      "blurb": "Raining a little, shining a little, all at once.",
+      "alt": "Seamless pastel pattern of weather motifs and dots.",
+      "tags": ["Seamless repeat", "Stationery", "Editorial"],
+      "detail": "Designed to be chopped into strips for notebook covers, washi tape and page borders without losing the rhythm."
+    },
+    {
+      "id": "surface-pattern-5",
+      "category": "surface-pattern",
+      "featured": false,
+      "title": "Berry Season",
+      "blurb": "A kitchen-textile repeat with fruit, leaves and sprinkles.",
+      "alt": "Seamless pastel pattern of berry and leaf shapes on a cream background.",
+      "tags": ["Seamless repeat", "Home textiles", "Tea towel"],
+      "detail": "Colour-separated for screen printing with four spot colours, and simplified linework so it survives on woven linen."
+    },
+    {
+      "id": "surface-pattern-6",
+      "category": "surface-pattern",
+      "featured": false,
+      "title": "Cloud Atlas",
+      "blurb": "Soft sky shapes that drift just enough to feel alive.",
+      "alt": "Seamless pastel pattern of cloud shapes and sparkles.",
+      "tags": ["Seamless repeat", "Wallpaper", "Digital"],
+      "detail": "A large-scale repeat designed for feature walls, with a small companion coordinate for the surrounding three walls."
+    },
+    {
+      "id": "surface-pattern-7",
+      "category": "surface-pattern",
+      "featured": false,
+      "title": "Bunny Band",
+      "blurb": "A marching line of small friends, endlessly.",
+      "alt": "Seamless pastel pattern of small round characters in a row.",
+      "tags": ["Seamless repeat", "Kids apparel", "Border"],
+      "detail": "A border print and a tossed print cut from the same motif library, so a clothing range stays visually consistent across styles."
+    },
+    {
+      "id": "surface-pattern-8",
+      "category": "surface-pattern",
+      "featured": false,
+      "title": "Sugar Sprinkle",
+      "blurb": "Pure celebration, no occasion required.",
+      "alt": "Seamless pastel pattern of colourful sprinkles and confetti shapes.",
+      "tags": ["Seamless repeat", "Party goods", "Digital"],
+      "detail": "Delivered in six recolours for a party-goods range, all from one layered master file so the client can order new palettes cheaply."
+    }
+  ]
+}

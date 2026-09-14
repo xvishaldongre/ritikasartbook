@@ -1,0 +1,7 @@
+_site/
+.DS_Store
+*.log
+.venv/
+__pycache__/
+.preview/
+audit*.html

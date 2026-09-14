@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found &mdash; ritikasartbook</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#6b5b71; --ink-soft:#8d7d93; --pink:#ffc8dd; --mint:#c7f0db; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; min-height:100vh; display:grid; place-items:center; text-align:center;
+    padding:32px; color:var(--ink); font-family:Quicksand,system-ui,sans-serif;
+    background:#fffbf5;
+    background-image:
+      radial-gradient(circle at 15% 15%, rgba(255,200,221,.5), transparent 45%),
+      radial-gradient(circle at 85% 20%, rgba(205,232,255,.5), transparent 45%),
+      radial-gradient(circle at 75% 85%, rgba(199,240,219,.5), transparent 45%);
+  }
+  .card {
+    background:#fff; border:3px dashed var(--pink); border-radius:40px;
+    padding:clamp(28px,5vw,56px); max-width:560px;
+    box-shadow:0 26px 50px -24px rgba(107,91,113,.45);
+  }
+  h1 { font-family:"Baloo 2",system-ui,sans-serif; font-size:clamp(2rem,6vw,3rem); margin:0 0 .3em; }
+  p { color:var(--ink-soft); font-size:1.05rem; line-height:1.7; }
+  a.btn {
+    display:inline-block; margin-top:14px; padding:13px 28px; border-radius:999px;
+    background:var(--mint); color:var(--ink); font-weight:700; text-decoration:none;
+    border:2px solid #fff; box-shadow:0 10px 24px -12px rgba(107,91,113,.5);
+    font-family:"Baloo 2",system-ui,sans-serif;
+  }
+  a.btn:hover { background:#8fd9b6; }
+  .art { width:130px; margin:0 auto 6px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg class="art" viewBox="0 0 720 720" aria-hidden="true">
+      <circle cx="360" cy="360" r="330" fill="#fff3c4"/>
+      <circle cx="360" cy="360" r="330" fill="none" stroke="#fff" stroke-width="7"
+              stroke-dasharray="14 16"/>
+      <g fill="#fff">
+        <ellipse cx="250" cy="300" rx="70" ry="62"/>
+        <ellipse cx="470" cy="300" rx="70" ry="62"/>
+        <circle cx="230" cy="290" r="30" fill="#ffc8dd"/>
+        <circle cx="490" cy="290" r="30" fill="#ffc8dd"/>
+        <circle cx="330" cy="370" r="18" fill="#6b5b71"/>
+        <circle cx="390" cy="370" r="18" fill="#6b5b71"/>
+      </g>
+      <path d="M320 430 Q360 456 400 430" stroke="#6b5b71" stroke-width="12"
+            fill="none" stroke-linecap="round"/>
+    </svg>
+    <h1>This page wandered off</h1>
+    <p>It probably followed a butterfly somewhere. Let&rsquo;s get you back to the
+      artwork.</p>
+    <a class="btn" href="/">Back to the portfolio &rarr;</a>
+  </div>
+</body>
+</html>
