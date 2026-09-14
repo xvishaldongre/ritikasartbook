@@ -178,6 +178,37 @@ the certificate is issued.
 > Adding the `CNAME` before DNS resolves makes the `github.io` URL redirect to
 > `ritikasartbook.com` and appear broken — which is exactly why stage 1 leaves it out.
 
+### Gotcha: an account-level custom domain redirects project sites
+
+If the user site repo (`<owner>/<owner>.github.io`) has a custom domain set, GitHub
+applies it to **every** project site on that account. The project then 301-redirects to
+that domain, and if its DNS is not configured the page is unreachable — even though the
+Pages build succeeded.
+
+Symptom:
+
+```bash
+curl -sSI https://<owner>.github.io/<repo>/
+# HTTP/2 301
+# location: http://the-other-domain.com/<repo>/   <- and that domain does not resolve
+```
+
+Clear it under *user site repo → Settings → Pages → Custom domain*, or:
+
+```bash
+gh api -X PUT repos/<owner>/<owner>.github.io/pages -f cname=''
+```
+
+Note the CDN caches that redirect (`x-cache: HIT`), so the directory URL can keep
+301-ing for a while after the fix. `<owner>.github.io/<repo>/index.html` works
+immediately, and hitting the edge IPs directly confirms the origin is healthy:
+
+```bash
+curl -sS -o /dev/null -w '%{http_code}\n' \
+  --resolve <owner>.github.io:443:185.199.108.153 \
+  https://<owner>.github.io/<repo>/
+```
+
 ---
 
 ## Project layout
@@ -203,7 +234,27 @@ tools/
   prepare_hero.py     crops the hero portrait out of a source PNG
   serve.py            local preview server
   deploy.sh           repo + Pages (+ optional custom domain)
+  live_check.py       smoke-tests the deployed site over CDP
   CNAME.custom-domain the domain stage 2 copies into CNAME
+```
+
+### Checking the deployed site
+
+`tools/live_check.py` drives a headless Chrome through the DevTools Protocol and
+clicks through the real published page — filter pills, "show all", the modal and the
+nav scroll — so it exercises htmx against GitHub Pages rather than a local copy.
+
+```bash
+google-chrome --headless=new --remote-debugging-port=9222 \
+  --user-data-dir=/tmp/cdp-profile about:blank &
+.venv/bin/python tools/live_check.py
+.venv/bin/python tools/live_check.py https://example.com/other-page.html
+```
+
+It needs `websocket-client` in the venv:
+
+```bash
+.venv/bin/pip install websocket-client
 ```
 
 ## Colours and type
